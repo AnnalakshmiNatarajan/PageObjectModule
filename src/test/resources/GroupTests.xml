@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="test-group">
+    <test name="group-test">
+        <groups>
+            <define name="weekly_build">
+                <include name="facebook"></include>
+            </define>
+            <define name="daily_build">
+                <include name="google"></include>
+            </define>
+            <run>
+                <include name="all"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="PageObjectModule.SeleniumTestOne">
+                <methods>
+                    <include name="doTestFacebook"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
