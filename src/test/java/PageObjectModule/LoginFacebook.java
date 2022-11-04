@@ -1,4 +1,4 @@
-package PageObjectModule.PageObjectModule;
+package PageObjectModule;
 
 import PageObjectModule.SeleniumJavaPage;
 import com.aventstack.extentreports.ExtentReports;

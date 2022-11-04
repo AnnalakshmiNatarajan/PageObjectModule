@@ -1,4 +1,4 @@
-package PageObjectModule.PageObjectModule;
+package PageObjectModule;
 
 import org.testng.ITestListener;
 import org.testng.ITestResult;

@@ -1,4 +1,4 @@
-package PageObjectModule.PageObjectModule;
+package PageObjectModule;
 
 import PageObjectModule.SeleniumJavaPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
