@@ -68,7 +68,7 @@ public class LoginFacebook extends SeleniumJavaPage {
         extentReports.createTest("Test 12").pass(MarkupHelper.createLabel("Passed", ExtentColor.AMBER));
         extentReports.createTest("Skip").skip("<b><i>Successfully Skipped.</i></b>");
         String xmlFile ="<menu id=\"file\" value=\"File\">\n" +
-                "  <popup>\n" +
+                "  <popup>\n" +",,"+
                 "    <menuitem value=\"New\" onclick=\"CreateNewDoc()\" />\n" +
                 "    <menuitem value=\"Open\" onclick=\"OpenDoc()\" />\n" +
                 "    <menuitem value=\"Close\" onclick=\"CloseDoc()\" />\n" +
