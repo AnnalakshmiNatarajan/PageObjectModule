@@ -1,5 +1,6 @@
 package PageObjectModule;
 
+import PageObjectModule.SeleniumJavaPage;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.markuputils.CodeLanguage;
 import com.aventstack.extentreports.markuputils.ExtentColor;
@@ -21,7 +22,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Listeners(ListenerClass.class)
-public class LoginFacebook extends  SeleniumJavaPage {
+public class LoginFacebook extends SeleniumJavaPage {
 
     static WebDriver webDriver;
 

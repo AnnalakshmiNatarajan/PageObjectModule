@@ -1,9 +1,7 @@
 package PageObjectModule;
 
-import org.openqa.selenium.WebDriver;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-import org.testng.annotations.Listeners;
 
 public class ListenerClass implements ITestListener {
 

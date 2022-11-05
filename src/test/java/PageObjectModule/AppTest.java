@@ -1,5 +1,6 @@
 package PageObjectModule;
 
+import PageObjectModule.SeleniumJavaPage;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
@@ -11,7 +12,6 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 import com.aventstack.extentreports.reporter.configuration.ViewName;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import junit.framework.Test;
-import junit.framework.TestCase;
 import junit.framework.TestSuite;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.Capabilities;
@@ -31,7 +31,7 @@ import static org.junit.Assert.assertTrue;
  * Unit test for simple App.
  */
 public class AppTest
-        extends  SeleniumJavaPage
+        extends SeleniumJavaPage
 {
     /**
      * Create the test case

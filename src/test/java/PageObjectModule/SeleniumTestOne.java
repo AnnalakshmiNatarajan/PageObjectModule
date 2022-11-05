@@ -1,14 +1,15 @@
 package PageObjectModule;
 
+import PageObjectModule.SeleniumJavaPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import static org.testng.Assert.*;
-
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.*;
 import org.testng.asserts.SoftAssert;
+
+import static org.testng.Assert.assertTrue;
 @Test(groups="all")
 public class SeleniumTestOne {
     WebDriver webdriver_obj;
